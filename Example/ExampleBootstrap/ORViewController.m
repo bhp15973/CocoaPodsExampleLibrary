@@ -7,7 +7,8 @@
 //
 
 #import "ORViewController.h"
-#import <ExampleLib/ExampleLib.h>
+//#import <ExampleLib/ExampleLib.h>
+#import <ExampleLib/ExampleHeader.h>
 
 @implementation ORViewController
 
@@ -15,8 +16,10 @@
 {
     [super viewDidLoad];
 
-    Example *example = [[Example alloc] init];
-    [example returnsFalse];
+    //Example *example = [[Example alloc] init];
+   // [example returnsFalse];
+    ExampleH *e = [[ExampleH alloc] init];
+    [e returnsTrue2];
 }
 
 @end
