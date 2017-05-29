@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.summary      =  'Just a simple podspec, no working code.'
   s.description  =  'Just a simple podspec for 2 files of Objective-C.'
 
-  s.source_files = "Classes/ExampleH*.{m,h}"
+  s.source_files = "Classes/Example*.{m,h}"
+
 end
