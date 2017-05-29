@@ -7,11 +7,13 @@
 //
 
 #import "ExampleHeader.h"
+#import "ExampleLib.h"
 
 @implementation ExampleH
 
 - (BOOL)returnsTrue2 {
-    return YES;
+    Example *e = [ Example new];
+    return e.returnsTrue;
 }
 
 - (BOOL)returnsFalse2 {
